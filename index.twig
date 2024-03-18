@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create a New Post</title>
+</head>
+<body>
+
+    <h1>Create a New Post</h1>
+    
+    <form action="/posts/create" method="post">
+        <div>
+            <label for="postName">Name:</label>
+            <input type="text" id="postName" name="name" required>
+        </div>
+        
+        <div>
+            <label for="postDescription">Description:</label>
+            <textarea id="postDescription" name="description" required></textarea>
+        </div>
+        
+        <button type="submit">Submit Post</button>
+    </form>
+
+    {% if success_message %}
+    <div class="success-message">
+        {{ success_message }}
+    </div>
+{% endif %}
+
+
+</body>
+</html>
