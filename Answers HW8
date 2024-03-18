@@ -1,0 +1,23 @@
+1.
+Escaping data means replacing certain characters in strings with escape sequences to prevent security vulnerabilities like injection attacks. 
+It ensures data is treated as text, not executable code, enhancing the web applications security.
+
+2a.
+REST is an architectural style for web services offering computers to exchange information systems on the internet. 
+Statelessness means the server doesn't store any state about the client session on the server side. 
+
+2b.
+A resource is any information that can be named and represented in RESTful architectures. 
+
+2c.
+i. GET /users for listing users, 
+ii. GET /users/{userId} for a specific user
+iii. POST /users to save a user.
+
+3.
+A cookie is a small piece of data stored on the user's device by the web browser while browsing. 
+It remembers stateful information for the website, like user preferences or login status.
+
+4.
+A session is a server-side mechanism to store information for use across multiple pages of a web application. 
+It enables persistence of user data and interactions.
